@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
+  background: #EEEEEE;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +19,245 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  color: #00ADB5;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h2 {
+  color: #303841;
+}
+
+.error {
+  color: #FF5722;
+  text-align: center;
+  font-weight: bold;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-end {
+  justify-content: end;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.grow1 {
+  flex: 1;
+}
+
+.grow5 {
+  flex: 5;
+}
+
+.overflow {
+  overflow: auto;
+}
+
+.toolbar {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.toolbar a {
+  color: #303841;
+}
+
+.toolbar * {
+  padding: 0.5em;
+  margin: 0 0.5em;
+}
+
+.form {
+  margin: auto;
+  text-align: center;
+  width: 400px;
+  margin-top: 5em;
+  background: white;
+  padding: 1.5em 0.5em;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.form h2 {
+  margin: 1em 0;
+}
+
+input, button {
+  padding: 0.8em;
+  margin: 0.5em;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border: none;
+}
+
+button {
+  background: #00ADB5;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1em;
+  padding: 0.5em;
+}
+
+.form-ext {
+  margin: 0.5em auto;
+  width: 400px;
+  background: white;
+  padding: 0.5em;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.profile {
+  width: 250px;
+  margin: 2em auto;
+}
+
+.profile h2 {
+  margin: 0.5em 0;
+}
+
+.profile img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.profile * {
+  text-align: center;
+}
+
+.user-card {
+  width: 225px;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.user-card img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.user-card * {
+  text-align: center;
+}
+
+.user-card-big {
+  margin: 2em auto;
+  width: 600px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 10px;
+}
+
+.user-card-big img {
+  width: 400px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.user-card-big * {
+  text-align: center;
+  justify-content: center;
+}
+
+.right-side {
+  width: 200px;
+  padding: 0.5em;
+}
+
+.chat {
+  width: 600px;
+  margin: 2em auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+.chat-top {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.chat-top img {
+  width: 50px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 1em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.chat-card {
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.chat-card img {
+  width: 100px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.chat-card h2 {
+  margin: 0 0.5em;
+  width: 100%;
+}
+
+.chat-card i {
+  font-size: 2.5em;
+  margin-right: 0.25em;
+  color: #303841;
+  transition: transform 0.3s;
+}
+
+.chat-card i:hover {
+  transform: scale(1.15);
+}
+
+.message-text {
+  background: #303841;
+  color: white;
+  margin: 0.5em;
+  padding: 0.5em;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+.my-msg {
+  background: #00ADB5;
 }
