@@ -8,6 +8,7 @@ const ChatPage = () => {
 
     const dispatch = useDispatch()
     const ref = useRef()
+    const scrollRef = useRef()
     const nav = useNavigate()
 
     const { chatId } = useParams()
@@ -28,6 +29,7 @@ const ChatPage = () => {
 
         dispatch(send(newMessage))
         ref.current.value = ''
+        scrollRef.current.scrollIntoView({behavior: 'smooth'})
     }
 
   return (
@@ -54,6 +56,7 @@ const ChatPage = () => {
         {chats[findIndex].messages.map((x, i) => (
           <Message key={i} item={x} />
         ))}
+        <div ref={scrollRef} />
       </div>
       <div className="grow1 chat-top d-flex space-btw">
         <input

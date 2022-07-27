@@ -37,15 +37,7 @@ export const userSlice = createSlice({
           image:
             "https://pyxis.nymag.com/v1/imgs/641/649/751adadbb52786c2e9675588d85a8b8967-GettyImages-1267517438.rsquare.w700.jpg",
           chats: [],
-        },
-        {
-          id: 5,
-          username: "Mantas Rimavičius",
-          password: "Mantas!",
-          image:
-            "https://cdn1.picuki.com/hosted-by-instagram/q=0exhNuNYnjBcaS3SYdxKjf8F2vJzWgxSZ60STLepjSVmIR1vLHOapZA0mpCj4yRwKwVlASuRYzln548qWFhYZFZ8P03dSL2JSzpU7q2eXICj0D1k8ZRjkL00LnIfbH6m9ssqOzjYMTIfQeoEH%7C%7Cbx7a8Koru5A2MGo1zRMrBC0GAG4fy3UPI7mslm3ayEv0PxtpcyKzNe92U1aUospY+X+3QJWPr5PN1gpKZlR7pCicgIrdDgmBq7EHl3Kj4uUQ+RubTOl+1egQe8fWwuwVmSeJgaFxUypHirkFA0toFzqbWXbNRL+NwZkIH2CmUEXTE86kEon5zgx3PySVTxjmVH8TGC7LaVe7M09oLJN9e3ZMvHmiiVTavNGu9EZVYrMPD0Z2reKaSyEI5Wk9YZTt0ZhQfhqECCerPLzxp1WW0chWPSDQ==.jpeg?1",
-          chats: [],
-        },
+        }
       ],
       currentUserId: null,
       chats: [],
